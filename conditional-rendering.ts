@@ -8,5 +8,5 @@ function ConditionalRendering({ isLoggedIn }: { isLoggedIn: boolean }) {
 // 第二種
 function ConditionalRendering({ isLoggedIn }: { isLoggedIn: boolean }) {
   // 實作你的條件渲染
-  return <>{isLoggedIn ? <ComponentOne /> : <Component2 />}</>;
+  return <>{isLoggedIn ? <ComponentOne /> : <ComponentTwo />}</>;
 }
